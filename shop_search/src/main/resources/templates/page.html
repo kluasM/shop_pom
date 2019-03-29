@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <base href="<%=request.getContextPath() + '/'%>">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Insert title here</title>
+</head>
+<link rel="stylesheet" href="js/layui/css/layui.css" media="all">
+<script src="js/layui/layui.js"></script>
+<body>
+
+<!-- 这个div用来展示分页导航条 -->
+<div id="test1"></div>
+
+<script>
+
+    // 初始化分页导航条
+    layui.use('laypage', function() {
+        var laypage = layui.laypage;
+
+        //执行一个laypage实例
+        laypage.render({
+
+            elem : 'test1', //注意，这里的 test1 是 ID，不用加 # 号
+            count : "${page.total}", // 总条数
+            limit:"${page.pageSize}", // 每页显示的条数
+            curr:"${page.pageNum}", // 当前页
+            layout: ['prev', 'page', 'next', 'limit','count'],
+            jump: function(obj, first){
+
+                console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
+                console.log(obj.limit); //得到每页显示的条数
+
+                //首次不执行
+                if(!first){
+                    debugger
+                    // 查询下一页的数据
+                    location.href="${url}currentPage="+obj.curr;
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

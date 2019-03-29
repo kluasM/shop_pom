@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq_test/rabbitmq_test.iml" filepath="$PROJECT_DIR$/rabbitmq_test/rabbitmq_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_api/shop_api.iml" filepath="$PROJECT_DIR$/shop_api/shop_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_back/shop_back.iml" filepath="$PROJECT_DIR$/shop_back/shop_back.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_cart/shop_cart.iml" filepath="$PROJECT_DIR$/shop_cart/shop_cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_commoms/shop_commoms.iml" filepath="$PROJECT_DIR$/shop_commoms/shop_commoms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_entity/shop_entity.iml" filepath="$PROJECT_DIR$/shop_entity/shop_entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_service/shop_goods_service/shop_goods_service.iml" filepath="$PROJECT_DIR$/shop_service/shop_goods_service/shop_goods_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_index/shop_index.iml" filepath="$PROJECT_DIR$/shop_index/shop_index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_item/shop_item.iml" filepath="$PROJECT_DIR$/shop_item/shop_item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_order/shop_order.iml" filepath="$PROJECT_DIR$/shop_order/shop_order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_pom.iml" filepath="$PROJECT_DIR$/shop_pom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_search/shop_search.iml" filepath="$PROJECT_DIR$/shop_search/shop_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_service/shop_search_service/shop_search_service.iml" filepath="$PROJECT_DIR$/shop_service/shop_search_service/shop_search_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_service/shop_service.iml" filepath="$PROJECT_DIR$/shop_service/shop_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_sso/shop_sso.iml" filepath="$PROJECT_DIR$/shop_sso/shop_sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_service/shop_user_service/shop_user_service.iml" filepath="$PROJECT_DIR$/shop_service/shop_user_service/shop_user_service.iml" />
+    </modules>
+  </component>
+</project>
